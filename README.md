@@ -10,9 +10,9 @@ version of my script by having "populate()" insert batches of students repeatedl
 all at once. I also improved performance by using the counter of the loop in "populate()" to determine the next available 
 "StudentId" field rather than calling "db[COLLECTION_NAME].countDocuments() + 1". 
 
-I look forward to writing more cool scripts like this in the future. It turns out that JavaScript isn't that bad of a language
-for engineers who a) know what they're doing, b) exercise strong architectural discipline. I am no JS expert, but I think I 
-demonstrated proficiency in both of those items on this assessment. 
+I look forward to writing more cool scripts like this in the future. It turns out that JavaScript isn't that bad of a language 
+for engineers who exercise strong architectural discipline. I am no JS expert, but I think I demonstrated my proficiencies well 
+on this particular assessment. 
 
 - Quinn Keenan
 - 29/11/2025, 10:38AM 

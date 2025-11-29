@@ -113,7 +113,7 @@ function randomAddress() {
 	const CITIES = ["Toronto", "Vancouver", "Calgary", "Montreal", "Saskatchewan", "New York City", "Los Angeles", "Denver", "Seattle"];
 	const MAX_STREET_NO = 5000; 
 	const MAX_UNIT_NO = 30; 
-	const STREET_NAMES = ["Oak Street", "Dirt Road", "Birchmount Road", "Eglington Avenue East", "Progress Avenue", "Markham Avenue"];
+	const STREET_NAMES = ["Oak Street", "Dirt Road", "Birchmount Road", "Eglinton Avenue East", "Progress Avenue", "Markham Avenue"];
   
 	return {
 		[ADDR_STREET_LBL]: STREET_NAMES[Math.floor(Math.random() * STREET_NAMES.length)], 
